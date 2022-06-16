@@ -1,0 +1,73 @@
+body {
+  font-family: "Lato", "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans";
+  -webkit-font-smoothing: antialiased;
+  color: #232323;
+}
+
+nav li:last-child a {
+  transition: all 0.3s ease-in-out;
+  background-color: #FE5F1E;
+}
+nav li:last-child a:hover {
+  background-color: #b23301;
+}
+
+nav li a {
+  transition: all 0.3s ease-in-out;
+}
+nav li a:hover {
+  color: #FE5F1E;
+}
+
+section.hero {
+  background: #f6f6f6;
+}
+
+.size {
+  background-color: #f6f6f6;
+}
+
+.add-to-card {
+  border: 1px solid #FE5F1E;
+  color: #FE5F1E;
+  transition: all 0.3s ease-in-out;
+}
+.add-to-card:hover {
+  background: #FE5F1E;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #FE5F1E;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  background-color: #b23301;
+}
+
+section.cart {
+  background: #f6f6f6;
+}
+section.cart .amount {
+  color: #FE5F1E;
+}
+
+section.login {
+  background: #f6f6f6;
+  font-family: "Lato", "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans";
+  min-height: calc(100vh - 61px);
+}
+
+section.register {
+  background: #f6f6f6;
+  font-family: "Lato", "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans";
+  min-height: calc(100vh - 61px);
+}
+
+.svg-lock {
+  fill: #b23301;
+}
+.svg-lock:hover {
+  background-color: #FE5F1E;
+}

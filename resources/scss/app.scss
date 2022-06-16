@@ -1,0 +1,69 @@
+ @import './variable';
+
+ body{
+    font-family: $font-default;
+    -webkit-font-smoothing: antialiased;
+    color: $dark; 
+ }
+ nav li:last-child a{
+   transition:$smooth;
+   background-color: $primary;
+     &:hover{
+      background-color: $primary-hover;
+   }
+ }
+ nav li a {
+   transition:$smooth;
+   &:hover{
+      color: $primary;
+   }
+ }
+ section.hero{
+   background: $secondary;
+ }
+ .size{
+  background-color: $secondary ;
+ }
+ .add-to-card {
+  border: 1px solid $primary;
+  color: $primary;
+ transition:$smooth;
+  &:hover{
+     background:$primary;
+     border-color: $white;
+     color:$white; 
+  }
+ }
+ .btn-primary{
+   background-color:$primary;
+   transition:$smooth;
+      &:hover{
+      background-color: $primary-hover;
+   }
+ 
+ }
+ section.cart{
+ background: $secondary ;
+ .amount{
+  color:$primary;
+ }
+ }
+
+section.login{
+  background:$secondary;
+  font-family: $font-default;
+  min-height: calc(100vh - 61px);
+ 
+}
+section.register{
+  background:$secondary;
+  font-family: $font-default;
+  min-height: calc(100vh - 61px);
+ 
+}
+.svg-lock{
+  fill:$primary-hover;;
+   &:hover{
+      background-color: $primary;
+   }
+}
